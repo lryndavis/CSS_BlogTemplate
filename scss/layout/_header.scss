@@ -1,0 +1,71 @@
+//Header Styles
+
+header {
+  width: 98%;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 98%;
+  margin: 0 auto;
+}
+
+.fixed-nav-bar {
+  text-align: center;
+  // position: fixed;
+  // top: 0;
+  // left: 0;
+  // z-index: 9999;
+  // width: 100%;
+  // height: 50px;
+  // background-color: #fff;
+  // text-align: center;
+  a {
+    @extend %navbar-links--mobile;
+  }
+}
+
+header img {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+hr {
+  margin-top: 25px;
+  width: 40%;
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+.blog-post img {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.blog-post {
+  overflow: hidden;
+  width: 100%;
+  height: 500px;
+  padding-top: 80px;
+  position: relative;
+  text-align: center;
+}
+
+.blog-title {
+  @extend %blog-title;
+}
+
+.date {
+  @extend %blog-date;
+}
+
+.blog-post a {
+  @extend %read-more;
+}

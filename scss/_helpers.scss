@@ -1,0 +1,69 @@
+// ==========================================================================
+// Helpers
+// ==========================================================================
+
+
+// Placeholders
+
+
+%navbar-links--desktop {
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+  font-weight: $font-weight--ultralight;
+  letter-spacing: .15em;
+  padding-right: 20px;
+    &:hover {
+      color: red;
+  }
+}
+
+%navbar-links--mobile {
+  @extend %navbar-links--desktop;
+  padding: 0;
+  font-size: em(26px);
+  line-height: 1.75em;
+  display: block;
+}
+
+%blog-title {
+  // text-transform: uppercase;
+  font-family: $font-family--primary;
+  font-style: italic;
+  font-weight: $font-weight--medium;
+  font-size: 1.1em;
+  margin-bottom: 0;
+  margin-left: 30px;
+  letter-spacing: .05em;
+  position: absolute;
+  margin: 0;
+  top: 50px;
+  left: 40px;
+}
+
+%blog-date {
+  font-weight: $font-weight--ultralight;
+  font-size: .8em;
+  position: absolute;
+  margin: 0;
+  top: 55px;
+  right: 40px;
+}
+
+%read-more {
+  font-weight: $font-weight--light;
+  color: black;
+  &:hover {
+    color: red;
+  }
+}
+
+
+// %fade-hr {
+//   border: 0;
+//   height: 1px;
+//   background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+//   background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+//   background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+//   background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+// }
