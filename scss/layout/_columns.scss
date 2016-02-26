@@ -5,6 +5,10 @@
   padding-top: 80px;
   position: relative;
   text-align: center;
+
+    @include media($desktop) {
+      width: 70%;
+    }
 }
 
 .blog-post img {

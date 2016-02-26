@@ -7,23 +7,32 @@ header {
 
 .fixed-nav-bar {
   text-align: center;
-  // position: fixed;
-  // top: 0;
-  // left: 0;
-  // z-index: 9999;
-  // width: 100%;
-  // height: 50px;
-  // background-color: #fff;
-  // text-align: center;
-  a {
-    @extend %navbar-links--mobile;
-  }
 }
+
+.fixed-nav-bar a {
+    @extend %navbar-links--mobile;
+
+    @include media($mobile) {
+      display: inline;
+      font-size: 1.15em;
+      padding-right: 10px;
+      letter-spacing: .12em;
+    }
+  }
+
 
 header img {
   width: 90%;
   display: block;
   margin: 0 auto;
+
+  @include media($mobile) {
+    width: 50%;
+
+    @include media($desktop) {
+      width: 20%;
+    }
+  }
 }
 
 hr {
