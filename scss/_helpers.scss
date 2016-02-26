@@ -6,6 +6,8 @@
 // Placeholders
 
 
+//Links
+
 %navbar-links--desktop {
   text-transform: uppercase;
   color: black;
@@ -26,8 +28,9 @@
   display: block;
 }
 
+//Text
+
 %blog-title {
-  // text-transform: uppercase;
   font-family: $font-family--primary;
   font-style: italic;
   font-weight: $font-weight--medium;
@@ -56,6 +59,14 @@
   &:hover {
     color: red;
   }
+}
+
+%caption {
+  font-weight: $font-weight--ultralight;
+  font-size: .9em;
+  width: 75%;
+  display: block;
+  margin: 0 auto 10px auto;
 }
 
 
