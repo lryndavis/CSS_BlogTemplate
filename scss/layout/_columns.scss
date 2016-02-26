@@ -47,3 +47,26 @@ figcaption {
       @include span-columns(4);
     }
   }
+
+
+  //Side Column
+
+.side-bar img{
+    width: 90%;
+  }
+
+.side-bar h1 {
+  @extend %h1-styling;
+  margin-top: 35px;
+}
+
+
+.archives li {
+  list-style: none;
+  font-size: .8em;
+  margin: 0;
+}
+
+hr.solid {
+  width: 80%;
+}

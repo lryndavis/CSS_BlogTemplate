@@ -55,10 +55,14 @@
 }
 
 %read-more {
-  font-weight: $font-weight--light;
+  font-family: $font-family--primary;
+  font-style: italic;
+  text-decoration: none;
+  font-weight: $font-weight--medium;
   color: black;
   &:hover {
     color: red;
+
   }
 }
 
@@ -68,6 +72,13 @@
   width: 75%;
   display: block;
   margin: 0 auto 10px auto;
+}
+
+%h1-styling {
+  font-family: $font-family--primary;
+  font-style: italic;
+  font-weight: $font-weight--bold;
+  font-size: 1.25em;
 }
 
 
