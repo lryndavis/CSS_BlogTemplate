@@ -1,9 +1,11 @@
 .wrap {
   width: 98%;
   margin: 0 auto;
+  overflow: hidden;
 
   @include media($desktop) {
     @include outer-container;
+      padding-top: 120px;
   }
 }
 
@@ -19,5 +21,6 @@
 .posts {
   @include media($desktop) {
     @include span-columns(9);
+    position: relative;
   }
 }

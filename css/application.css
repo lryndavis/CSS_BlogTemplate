@@ -300,12 +300,14 @@ hr.solid {
 
 .wrap {
   width: 98%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  overflow: hidden; }
   @media screen and (min-width: 950px) {
     .wrap {
-      max-width: 80.5em;
+      max-width: 74.25em;
       margin-left: auto;
-      margin-right: auto; }
+      margin-right: auto;
+      padding-top: 120px; }
       .wrap::after {
         clear: both;
         content: "";
@@ -328,16 +330,31 @@ hr.solid {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 74.41059%; }
+    width: 74.41059%;
+    position: relative; }
     .posts:last-child {
       margin-right: 0; } }
 
 header {
-  width: 98%;
+  width: 100%;
   margin: 0 auto; }
+  @media screen and (min-width: 950px) {
+    header {
+      width: 1188px;
+      margin: 0 auto;
+      overflow: hidden;
+      height: 110px;
+      background-color: white;
+      position: fixed;
+      z-index: 10; } }
 
 .fixed-nav-bar {
   text-align: center; }
+  @media screen and (min-width: 950px) {
+    .fixed-nav-bar {
+      position: absolute;
+      top: 50px;
+      left: 290px; } }
 
 @media screen and (min-width: 650px) {
   .fixed-nav-bar a {
@@ -345,6 +362,10 @@ header {
     font-size: 1.15em;
     padding-right: 10px;
     letter-spacing: .12em; } }
+  @media screen and (min-width: 650px) and (min-width: 950px) {
+    .fixed-nav-bar a {
+      font-size: 1em;
+      padding-right: 10px; } }
 
 header img {
   width: 90%;
@@ -355,7 +376,10 @@ header img {
       width: 50%; } }
   @media screen and (min-width: 650px) and (min-width: 950px) {
     header img {
-      width: 20%; } }
+      position: absolute;
+      top: 7px;
+      left: 3.4em;
+      width: 220px; } }
 
 hr.faded {
   margin-top: 25px;
@@ -366,5 +390,8 @@ hr.faded {
   background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
   background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
   background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); }
+  @media screen and (min-width: 950px) {
+    hr.faded {
+      display: none; } }
 
 /*# sourceMappingURL=application.css.map */
