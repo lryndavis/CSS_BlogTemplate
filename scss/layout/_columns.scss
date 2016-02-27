@@ -73,3 +73,21 @@ figcaption {
 hr.solid {
   width: 80%;
 }
+
+.about img {
+  position: relative;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+// .about p {
+//   font-size: 40px;
+//   background: none;
+//   position: absolute;
+//   top: 300px;
+//   right: 150px;
+//   font-family: $font-family--secondary;
+//   color: $text-color--secondary;
+//   font-weight: $font-weight--bold;
+//   z-index: 9;
+// }

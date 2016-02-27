@@ -297,6 +297,11 @@ body {
 hr.solid {
   width: 80%; }
 
+.about img {
+  position: relative;
+  border-radius: 50%;
+  opacity: 0.5; }
+
 .wrap {
   width: 100%;
   margin: 0 auto;
