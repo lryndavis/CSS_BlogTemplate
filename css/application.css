@@ -299,7 +299,7 @@ hr.solid {
   width: 80%; }
 
 .wrap {
-  width: 98%;
+  width: 100%;
   margin: 0 auto;
   overflow: hidden; }
   @media screen and (min-width: 950px) {
@@ -340,7 +340,6 @@ header {
   margin: 0 auto; }
   @media screen and (min-width: 950px) {
     header {
-      width: 1188px;
       margin: 0 auto;
       overflow: hidden;
       height: 110px;
@@ -353,8 +352,8 @@ header {
   @media screen and (min-width: 950px) {
     .fixed-nav-bar {
       position: absolute;
-      top: 50px;
-      left: 290px; } }
+      top: 52px;
+      left: 320px; } }
 
 @media screen and (min-width: 650px) {
   .fixed-nav-bar a {
@@ -364,8 +363,8 @@ header {
     letter-spacing: .12em; } }
   @media screen and (min-width: 650px) and (min-width: 950px) {
     .fixed-nav-bar a {
-      font-size: 1em;
-      padding-right: 10px; } }
+      font-size: .9em;
+      padding-right: 7px; } }
 
 header img {
   width: 90%;
@@ -378,7 +377,7 @@ header img {
     header img {
       position: absolute;
       top: 7px;
-      left: 3.4em;
+      left: 6.2em;
       width: 220px; } }
 
 hr.faded {
@@ -392,6 +391,6 @@ hr.faded {
   background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); }
   @media screen and (min-width: 950px) {
     hr.faded {
-      display: none; } }
+      width: 100%; } }
 
 /*# sourceMappingURL=application.css.map */
