@@ -4,13 +4,10 @@ header {
   width: 100%;
   margin: 0 auto;
 
-
-
   @include media($desktop) {
     margin: 0 auto;
     overflow: hidden;
-    height: 110px;
-    background-color: white;
+    height: 100px;
     position: fixed;
     z-index: 10;
   }
@@ -21,7 +18,7 @@ header {
 
   @include media($desktop) {
     position: absolute;
-    top: 52px;
+    top: 43px;
     left: 320px;
   }
 }
@@ -37,8 +34,14 @@ header {
 
     @include media($desktop) {
       font-size: .9em;
-      padding-right: 7px;
+      padding-right: 12px;
     }
+  }
+}
+
+a:nth-child(6) {
+  @include media($desktop) {
+  color: $text-color--secondary;
   }
 }
 
@@ -52,7 +55,7 @@ header img {
 
     @include media($desktop) {
       position: absolute;
-      top: 7px;
+      top: -5px;
       left: 6.2em;
       width: 220px;
     }

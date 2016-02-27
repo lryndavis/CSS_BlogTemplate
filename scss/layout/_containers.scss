@@ -1,3 +1,6 @@
+
+//Main wrapper div
+
 .wrap {
   width: 100%;
   margin: 0 auto;
@@ -5,22 +8,25 @@
 
   @include media($desktop) {
     @include outer-container;
-      padding-top: 120px;
+      padding-top: 60px;
   }
 }
+
+//Side bar div
 
 .side-bar {
   display: none;
 
   @include media($desktop) {
     @include span-columns(3);
-    margin-top: 80px;
+    margin-top: 170px;
   }
 }
+
+// Blog posts div
 
 .posts {
   @include media($desktop) {
     @include span-columns(9);
-    position: relative;
   }
 }

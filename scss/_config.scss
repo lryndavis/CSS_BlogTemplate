@@ -18,8 +18,17 @@ $font-weight--ultrabold: 900;
 
 //Descriptive Base Colors
 
+$ivory: #fdfdf9;
+$black: #000;
+$turquoise: #008080;
+$turquoise-light: #00e6e6;
 
+//Color Usage
 
+$background-color: $ivory;
+$text-color--primary: $black;
+$text-color--secondary: $turquoise;
+$text-color--hover: $turquoise-light;
 
 //Media Queries
 

@@ -9,15 +9,15 @@
 //Links
 
 %navbar-links--desktop {
+  color: $text-color--primary;
+  font-weight: $font-weight--ultralight;
   display: inline;
   text-transform: uppercase;
-  color: black;
   text-decoration: none;
-  font-weight: $font-weight--ultralight;
   letter-spacing: .15em;
   padding-right: 20px;
     &:hover {
-      color: red;
+      color: $text-color--hover;
   }
 }
 
@@ -31,37 +31,31 @@
 
 //Text
 
+
 %blog-title {
+  color: $text-color--secondary;
   font-family: $font-family--primary;
-  font-style: italic;
   font-weight: $font-weight--medium;
+  font-style: italic;
   font-size: 1.1em;
   margin-bottom: 0;
-  margin-left: 30px;
   letter-spacing: .05em;
-  position: absolute;
-  margin: 0;
-  top: 50px;
-  left: 40px;
 }
 
 %blog-date {
+  color: $text-color--primary;
   font-weight: $font-weight--ultralight;
   font-size: .8em;
-  position: absolute;
-  margin: 0;
-  top: 55px;
-  right: 40px;
 }
 
 %read-more {
+  font-weight: $font-weight--medium;
+  color: $text-color--primary;
   font-family: $font-family--primary;
   font-style: italic;
   text-decoration: none;
-  font-weight: $font-weight--medium;
-  color: black;
   &:hover {
-    color: red;
+    color: $text-color--hover;
   }
 }
 
@@ -74,8 +68,9 @@
 }
 
 %h1-styling {
+  color: $text-color--secondary;
   font-family: $font-family--primary;
-  font-style: italic;
   font-weight: $font-weight--bold;
+  font-style: italic;
   font-size: 1.25em;
 }
