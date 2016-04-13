@@ -1,13 +1,16 @@
-#Sass Blog Template
-##Epicodus CSS, Week 3 Code Review
-#### By Lauryn Davis
+# Sass Blog Template 
+
+By Lauryn Davis 
+
+2.19.2016
+
+Epicodus CSS Week 3 / Sass Code Review 
 
 ###Description
 
-* A simple blog template featuring a responsive layout that looks lovely on desktops, tablets, and mobile.
-* Created on February 19th, 2015
+ A simple blog template featuring a responsive layout that looks lovely on desktops, tablets, and mobile.
 
-### Technologies Used
+##### Technologies Used
 
 * HTML
 * CSS
